@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+}
+
+.nav{
+  background-color: white;
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap:2rem;
+  padding: 0 1rem;
+  border-bottom: 2px solid red;
+}
+
+.nav ul{
+  padding: 0;
+  margin: 0;
+  list-style:none;
+  display: flex;
+  gap: 1rem;
+}
+
+.signupButton{
+  padding: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem;
+  border: 2px solid #d50000;
+  cursor: pointer;
+  background: transparent;
+  color: #d50000;
+  border-radius: 0.2rem;
+  transition: background 200ms ease-in, color 200ms ease-in;
+}
+
+.signupButton:hover{
+  background: #d50000;
+  color: white;
+}
+
+.loginButton{
+  padding: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem;
+  border: 2px solid #d50000;
+  cursor: pointer;
+  background: transparent;
+  color: #d50000;
+  border-radius: 0.2rem;
+  transition: background 200ms ease-in, color 200ms ease-in;
+}
+
+.loginButton:hover{
+  background: #d50000;
+  color: white;
+}
+/*
+.nav li.active{
+  background-color: rgb(228, 228, 228);
+}
+
+.nav li:hover{
+  background-color: rgb(198, 198, 198);
+}
+*/

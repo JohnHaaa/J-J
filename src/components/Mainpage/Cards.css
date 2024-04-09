@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+    margin:2rem;
+}
+
+.card{
+    overflow: hidden;
+    box-shadow:0 2px 20px #e1e5ee;
+    border-radius:0.2rem;
+    display:flex;
+    width: 15rem;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor:pointer;
+    transition: transform 200ms ease-in;
+    padding-bottom: 2rem;
+}
+
+.card:hover{
+    transform:scale(1.02);
+}
+
+.cardImg{
+    height:12rem;
+    width: 100%;
+    object-fit: cover;
+}
+.Restaurantcard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-between;
+    row-gap: 1rem;
+}
+.cardTitle{
+    padding:1rem;
+    height: 7rem;
+    text-align: center;
+
+}
+
+.cardButton{
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+    border: 2px solid #d50000;
+    cursor: pointer;
+    background: transparent;
+    color: #d50000;
+    border-radius: 0.2rem;
+    transition: background 200ms ease-in, color 200ms ease-in;
+}
+
+.cardButton:hover{
+    background: #d50000;
+    color: white;
+}
